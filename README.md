@@ -37,7 +37,7 @@ Secure data storage in PostgreSQL
 
 Responsive updates across dashboard components
 
-# 📅 Advanced Filtering
+ 📅 Advanced Filtering
 Filter by category and date range
 
 Sort expenses by most recent or oldest
