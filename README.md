@@ -1,6 +1,6 @@
-💰 SmartSpend
-SmartSpend is a full-stack expense tracking application designed to help users manage their personal finances with clarity and control.
+## 💰 SmartSpend
 
+SmartSpend is a full-stack expense tracking application designed to help users manage their personal finances with clarity and control.
 The platform provides secure user authentication, real-time expense tracking, and interactive data visualization. Users can categorize spending, track trends, and gain meaningful insights into their financial habits — all within a modern, responsive UI.
 ## 📸 Screenshots
 
