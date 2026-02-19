@@ -12,7 +12,7 @@ The platform provides secure user authentication, real-time expense tracking, an
 
 
 ## 🚀 Features
-# 🔐 Secure User Authentication
+ 🔐 Secure User Authentication
 User registration and login functionality
 
 Password hashing using Bcrypt
@@ -21,7 +21,7 @@ JWT-based authentication for protected routes
 
 User-specific data isolation for privacy and security
 
-# 📊 Interactive Data Visualization
+ 📊 Interactive Data Visualization
 Dynamic charts to visualize spending trends
 
 Category-wise expense breakdown
@@ -30,7 +30,7 @@ Real-time updates after add/delete actions
 
 Summary endpoint for total and per-category insights
 
-# ➕ Expense Management
+➕ Expense Management
 Add, edit, and delete expenses with title, category, amount, and date
 
 Secure data storage in PostgreSQL
@@ -44,14 +44,14 @@ Sort expenses by most recent or oldest
 
 View targeted summaries for budgeting precision
 
-# 📂 Categorization System
+📂 Categorization System
 Custom categories for structured tracking
 
 Per-category analytics and summaries
 
 Relational data modeling ensures efficiency
 
-# 📱 Responsive & Modern UI
+📱 Responsive & Modern UI
 Fully responsive layout using TailwindCSS
 
 Clean, minimal, and user-friendly dashboard
@@ -83,11 +83,11 @@ PostgreSQL
 
 
 ## ⚙️ Installation & Setup
-# 1️⃣ Clone the Repository
+1️⃣ Clone the Repository
 git clone https://github.com/SphinxVon/SmartSpend.git
 cd smartSpend
 
-# 2️⃣ Backend Setup (Flask)
+2️⃣ Backend Setup (Flask)
 cd backend
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
