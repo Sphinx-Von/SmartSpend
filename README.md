@@ -2,6 +2,8 @@
 
 ![SmartSpend Dashboard](https://github.com/user-attachments/assets/2df1593a-cec1-41a0-954e-9be54fb0ed68)
 
+![Login/Register Page](https://github.com/user-attachments/assets/38530802-f8d5-4c89-8c35-a8b57f957460")
+
 
 💰 SmartSpend
 
