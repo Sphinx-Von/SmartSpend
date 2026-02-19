@@ -4,6 +4,11 @@ from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime, timedelta
 from flask_migrate import Migrate
 
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
 
 from flask_bcrypt import Bcrypt
 from flask_jwt_extended import (
@@ -16,15 +21,16 @@ from flask_jwt_extended import (
 app = Flask(__name__)
 CORS(app)
 
-app.config["JWT_SECRET_KEY"] = "change-this-secret-key"  
+app.config["JWT_SECRET_KEY"] = os.getenv("JWT_SECRET_KEY")
+
+app.config["SQLALCHEMY_DATABASE_URI"] = os.getenv("DATABASE_URL")  
 
 app.config["JWT_ACCESS_TOKEN_EXPIRES"] = timedelta(hours=24)
 
 app.config["JWT_TOKEN_LOCATION"] = ["headers"]     
 
-app.config["SQLALCHEMY_DATABASE_URI"] = (
-    "postgresql+psycopg2://postgres:%401234rubina@localhost:5432/expense_tracker"
-)
+
+
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
 db = SQLAlchemy(app)
@@ -59,9 +65,6 @@ class Expense(db.Model):
         }
 
 
-@app.before_request
-def create_tables():   # This creates tables before the first request. In production, use migrations instead.
-    db.create_all()
 
 
 @app.post("/api/register")
