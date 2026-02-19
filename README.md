@@ -11,7 +11,7 @@ The platform provides secure user authentication, real-time expense tracking, an
 ![Login/Register Page](https://github.com/user-attachments/assets/38530802-f8d5-4c89-8c35-a8b57f957460)
 
 
-### 🚀 Features
+## 🚀 Features
 # 🔐 Secure User Authentication
 User registration and login functionality
 
@@ -60,7 +60,7 @@ Optimized for both desktop and tablet use
 
 
 
-### 🛠 Tech Stack
+## 🛠 Tech Stack
 Frontend
 
 React
