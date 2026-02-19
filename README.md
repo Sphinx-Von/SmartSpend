@@ -1,3 +1,8 @@
+## 📸 Screenshots
+
+![SmartSpend Dashboard](https://github.com/user-attachments/assets/2df1593a-cec1-41a0-954e-9be54fb0ed68)
+
+
 💰 SmartSpend
 
 SmartSpend is a modern expense tracking web application that helps users manage their finances efficiently.
