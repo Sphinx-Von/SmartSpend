@@ -82,6 +82,11 @@ source venv/bin/activate
 pip install -r requirements.txt
  run :- python app.py
 
-### AI Tools Used:
-Claude, Chatgpt, Perplexity
+## AI Guidance
+
+AI usage in this project was constrained and reviewed.
+See `/ai-guidance/` directory for:
+- Usage details
+- Prompt constraints
+- Coding standards
 
