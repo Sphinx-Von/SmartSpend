@@ -17,46 +17,33 @@ User registration and login functionality
 
 Password hashing using Bcrypt
 
-JWT-based authentication for protected routes
 
-User-specific data isolation for privacy and security
 
  📊 Interactive Data Visualization
 Dynamic charts to visualize spending trends
 
 Category-wise expense breakdown
 
-Real-time updates after add/delete actions
-
-Summary endpoint for total and per-category insights
 
 ➕ Expense Management
 Add, edit, and delete expenses with title, category, amount, and date
 
-Secure data storage in PostgreSQL
 
-Responsive updates across dashboard components
 
  📅 Advanced Filtering
 Filter by category and date range
 
-Sort expenses by most recent or oldest
 
-View targeted summaries for budgeting precision
 
 📂 Categorization System
 Custom categories for structured tracking
 
-Per-category analytics and summaries
 
-Relational data modeling ensures efficiency
 
 📱 Responsive & Modern UI
 Fully responsive layout using TailwindCSS
 
-Clean, minimal, and user-friendly dashboard
 
-Optimized for both desktop and tablet use
 
 
 
@@ -90,7 +77,11 @@ cd smartSpend
 2️⃣ Backend Setup (Flask)
 cd backend
 python -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
+source venv/bin/activate 
+# On Windows: venv\Scripts\activate
 pip install -r requirements.txt
  run :- python app.py
+
+### AI Tools Used:
+Claude, Chatgpt, Perplexity
 
