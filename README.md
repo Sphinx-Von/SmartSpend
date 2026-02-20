@@ -1,23 +1,53 @@
-💰 SmartSpend
 
-SmartSpend is a modern expense tracking web application that helps users manage their finances efficiently.
-It includes secure authentication, a clean dashboard, and interactive charts to visualize spending habits.
+## 💰 SmartSpend
 
-🚀 Features
+SmartSpend is a full-stack expense tracking application designed to help users manage their personal finances with clarity and control.
+The platform provides secure user authentication, real-time expense tracking, and interactive data visualization. Users can categorize spending, track trends, and gain meaningful insights into their financial habits — all within a modern, responsive UI.
 
-🔐 User Authentication (Sign Up / Login / Logout)
+## 📸 Screenshots
 
-📊 Interactive Charts for expense visualization
+![SmartSpend Dashboard](https://github.com/user-attachments/assets/2df1593a-cec1-41a0-954e-9be54fb0ed68)
 
-➕ Add, edit, and delete expenses
+![Login/Register Page](https://github.com/user-attachments/assets/38530802-f8d5-4c89-8c35-a8b57f957460)
 
-📅 Track expenses by date
 
-📂 Categorize spending
+## 🚀 Features
+ 🔐 Secure User Authentication
+User registration and login functionality
 
-📱 Responsive UI
+Password hashing using Bcrypt
 
-🛠 Tech Stack
+
+
+ 📊 Interactive Data Visualization
+Dynamic charts to visualize spending trends
+
+Category-wise expense breakdown
+
+
+➕ Expense Management
+Add, edit, and delete expenses with title, category, amount, and date
+
+
+
+ 📅 Advanced Filtering
+Filter by category and date range
+
+
+
+📂 Categorization System
+Custom categories for structured tracking
+
+
+
+📱 Responsive & Modern UI
+Fully responsive layout using TailwindCSS
+
+
+
+
+
+## 🛠 Tech Stack
 Frontend
 
 React
@@ -39,7 +69,7 @@ Database
 PostgreSQL
 
 
-⚙️ Installation & Setup
+## ⚙️ Installation & Setup
 1️⃣ Clone the Repository
 git clone https://github.com/SphinxVon/SmartSpend.git
 cd smartSpend
@@ -47,7 +77,11 @@ cd smartSpend
 2️⃣ Backend Setup (Flask)
 cd backend
 python -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
+source venv/bin/activate 
+# On Windows: venv\Scripts\activate
 pip install -r requirements.txt
  run :- python app.py
+
+### AI Tools Used:
+Claude, Chatgpt, Perplexity
 
